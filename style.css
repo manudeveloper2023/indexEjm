@@ -1,0 +1,15 @@
+*{
+    margin : 0 ; 
+}
+.title-1{
+    background-color: palegreen;
+}
+#title-2{
+    background-color: aliceblue;
+}
+a[href="https://www.youtube.com/"]{
+    color:#ff000f ; 
+}
+a[href="https://www.instagram.com/"]{
+    color:pink ; 
+}
