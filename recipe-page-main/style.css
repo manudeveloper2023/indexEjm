@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+html{
+    background-color:  hsl(30, 54%, 90%);
+}
+body{
+    font-size: 16px;
+}
+section{
+    margin: 30px;
+}
+.cart{
+    background-color: white;
+    height: 1440px;
+    width: 700px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 2.5rem auto;
+}
+
+.description__photo-omelette{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+   
+}
+.description__title{
+    font-size: 35px;
+    margin-bottom: 1rem;
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%)
+}
+.preparation{
+
+    top:3rem ; 
+    width: 600px  ;
+    height: 170px;
+    background-color:  hsl(330, 100%, 98% , 0.7); 
+    border-radius: 20px;
+   
+    padding: 20px;
+}
+.preparation__title{
+    color :hsl(332, 51%, 32%) ; 
+    font-size: 25px;
+}
+.preparation__total , .preparation__preparation-value{
+    padding-bottom: 10px;
+}
+.preparation__tables{
+    color : hsl(30, 10%, 34%) ; 
+
+    padding: 20px;
+}
+.ingredients__title , .instructions__title  {
+    color:hsl(14, 45%, 36%);
+    font-size: 30px;
+    font-family: 'Young Serif', serif;
+    margin-bottom: 1rem;
+}
+.ingredients__table{
+    margin-bottom: 3rem;
+}
+.ingredients-first , .ingredients-two , .ingredients-three ,.ingredients-fourth{
+   padding-bottom: 10px;
+}
+.preparation__tables,.description__letters , .ingredients__table , .instructions__enumeration{
+    color:hsl(30, 10%, 34%) ; 
+}
